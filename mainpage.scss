@@ -1,0 +1,96 @@
+.gradient {
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  background: linear-gradient(-45deg, #400080, #26004d, #000, #000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  width:100vw;
+}
+
+.gradient2 {
+	position: absolute;
+  left: 0px;
+  top: 100%;
+  background: linear-gradient(-135deg, #400080, #26004d, #000, #000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  width:100vw;
+}
+
+.nom {
+  color: white;
+  position: absolute;
+  text-decoration: underline;
+  font-size: 40px;
+  top: 5vh;
+  left: 5vw;
+  font-family: Segoe UI;
+  //animation: appearence 7.5s ease infinite;
+  //animation-direction: alternate-reverse;
+  cursor: pointer;
+}
+
+.projet {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  top: 15vh;
+  left: 65vw;
+  font-family: Segoe UI;
+  //animation: appearence 7.5s ease infinite;
+  //animation-direction: alternate-reverse;
+  &01{
+    margin: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &02{
+    margin: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &03{
+    margin: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  &04{
+    margin: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.date {
+  color: white;
+  font-size: 10px;
+  font-family: Segoe UI;
+  margin: 0px 0px 0px 1vw;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes appearence {
+	0% {
+		opacity: 100%;
+	}
+	25% {
+		opacity: 0%;
+	}
+	100% {
+		opacity: 0%;;
+	}
+}
