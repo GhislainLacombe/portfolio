@@ -1,3 +1,8 @@
+html, body {
+  /*cursor: wait;*/
+  border:none;
+}
+
 .gradient {
 	position: absolute;
   left: 0px;
@@ -20,6 +25,18 @@
   width:100vw;
 }
 
+.gradient3 {
+	position: absolute;
+  left: 0px;
+  top: 200%;
+  background: linear-gradient(-45deg, #400080, #26004d, #000, #000);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+  width:100vw;
+  z-index:-1;
+}
+
 .nom {
   color: white;
   position: absolute;
@@ -28,9 +45,7 @@
   top: 5vh;
   left: 5vw;
   font-family: Segoe UI;
-  //animation: appearence 7.5s ease infinite;
-  //animation-direction: alternate-reverse;
-  cursor: pointer;
+  cursor: context-menu;
 }
 
 .projet {
@@ -69,6 +84,7 @@
   font-size: 10px;
   font-family: Segoe UI;
   margin: 0px 0px 0px 1vw;
+  transform: rotate(2deg);
 }
 
 @keyframes gradient {
@@ -93,4 +109,29 @@
 	100% {
 		opacity: 0%;;
 	}
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: white;
+	display: inline-block;
+  transition-duration: 0.25s;
+	transition-property: transform;
+  transform: rotate(-1deg);
+  &:hover {
+    color: lightgrey;
+    transform: rotate(5deg);
+  }
+}
+
+.title {
+  color: white;
+  position: absolute;
+  font-size: 20px;
+  left: 15vw;
+  font-family: Segoe UI;
 }
