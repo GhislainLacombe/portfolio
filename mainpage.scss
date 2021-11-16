@@ -24,6 +24,7 @@ html, body {
 	height: 100vh;
   width:100vw;
   overflow:hidden;
+  z-index:-10;
 }
 
 .gradient3 {
@@ -161,5 +162,33 @@ a {
 @media  (max-width: 591px)  {
   .contact{
     top: 350px;
+  }
+}
+
+@media  (max-width: 472px)  {
+  .projet{
+    top: 500px;
+    left: 5vw;
+  }
+}
+
+@media  (max-width: 472px)  {
+  .projet{
+    top: 525px;
+    left: 5vw;
+  }
+  .contact {
+    width:85vw;
+    top:375px;
+  }
+  .description {
+    width:85vw;
+    top: 150px;
+  }
+  .projetPhotoshop {
+    position: absolute;
+    left: 0px;
+    top:750px;
+    z-index:10;
   }
 }
