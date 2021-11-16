@@ -23,6 +23,7 @@ html, body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
   width:100vw;
+  overflow:hidden;
 }
 
 .gradient3 {
@@ -34,7 +35,8 @@ html, body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
   width:100vw;
-  z-index:-1;
+  overflow:hidden;
+  z-index:-10;
 }
 
 .nom {
@@ -42,8 +44,32 @@ html, body {
   position: absolute;
   text-decoration: underline;
   font-size: 40px;
-  top: 5vh;
+  top: 25px;
   left: 5vw;
+  font-family: Segoe UI;
+  cursor: context-menu;
+}
+
+.description {
+  color: white;
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  top: 100px;
+  left: 5vw;
+  width: 40vw;
+  font-family: Segoe UI;
+  cursor: context-menu;
+}
+
+.contact {
+  color: white;
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+  top: 225px;
+  left: 5vw;
+  width: 40vw;
   font-family: Segoe UI;
   cursor: context-menu;
 }
@@ -99,21 +125,10 @@ html, body {
 	}
 }
 
-@keyframes appearence {
-	0% {
-		opacity: 100%;
-	}
-	25% {
-		opacity: 0%;
-	}
-	100% {
-		opacity: 0%;;
-	}
-}
-
-img {
+.imageProjet01 {
   max-width: 100%;
   height: auto;
+  z-index:10;
 }
 
 a {
@@ -133,5 +148,18 @@ a {
   position: absolute;
   font-size: 20px;
   left: 15vw;
+  padding: 10px;
   font-family: Segoe UI;
+}
+
+@media  (max-width: 847px)  {
+  .contact{
+    top: 275px;
+  }
+}
+
+@media  (max-width: 591px)  {
+  .contact{
+    top: 350px;
+  }
 }
