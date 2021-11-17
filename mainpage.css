@@ -1,45 +1,42 @@
+/*cursor: wait;
+*/
 html, body {
-  /*cursor: wait;*/
-  border:none;
+  border: none;
 }
-
 .gradient {
-	position: absolute;
+  position: absolute;
   left: 0px;
   top: 0px;
   background: linear-gradient(-45deg, #400080, #26004d, #000, #000);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-  width:100vw;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  width: 100%;
 }
-
 .gradient2 {
-	position: absolute;
+  position: absolute;
   left: 0px;
   top: 100%;
   background: linear-gradient(-135deg, #400080, #26004d, #000, #000);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-  width:100vw;
-  overflow:hidden;
-  z-index:-10;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: -10;
 }
-
 .gradient3 {
-	position: absolute;
+  position: absolute;
   left: 0px;
   top: 200%;
   background: linear-gradient(-45deg, #400080, #26004d, #000, #000);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-  width:100vw;
-  overflow:hidden;
-  z-index:-10;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: -10;
 }
-
 .nom {
   color: white;
   position: absolute;
@@ -50,7 +47,6 @@ html, body {
   font-family: Segoe UI;
   cursor: context-menu;
 }
-
 .description {
   color: white;
   position: absolute;
@@ -62,7 +58,6 @@ html, body {
   font-family: Segoe UI;
   cursor: context-menu;
 }
-
 .contact {
   color: white;
   position: absolute;
@@ -74,7 +69,6 @@ html, body {
   font-family: Segoe UI;
   cursor: context-menu;
 }
-
 .projet {
   color: white;
   position: absolute;
@@ -82,30 +76,27 @@ html, body {
   top: 15vh;
   left: 65vw;
   font-family: Segoe UI;
-  //animation: appearence 7.5s ease infinite;
-  //animation-direction: alternate-reverse;
-  &01{
-    margin: 10px;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  &02{
-    margin: 10px;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  &03{
-    margin: 10px;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  &04{
-    margin: 10px;
-    text-decoration: underline;
-    cursor: pointer;
-  }
 }
-
+.projet1 {
+  margin: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.projet2 {
+  margin: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.projet3 {
+  margin: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.projet4 {
+  margin: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
 .date {
   color: white;
   font-size: 10px;
@@ -113,37 +104,33 @@ html, body {
   margin: 0px 0px 0px 1vw;
   transform: rotate(2deg);
 }
-
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+ }
+  50% {
+    background-position: 100% 50%;
+ }
+  100% {
+    background-position: 0% 50%;
+ }
 }
-
 .imageProjet01 {
   max-width: 100%;
   height: auto;
-  z-index:10;
+  z-index: 10;
 }
-
 a {
   color: white;
-	display: inline-block;
+  display: inline-block;
   transition-duration: 0.25s;
-	transition-property: transform;
+  transition-property: transform;
   transform: rotate(-1deg);
-  &:hover {
-    color: lightgrey;
-    transform: rotate(5deg);
-  }
 }
-
+a:hover {
+  color: lightgrey;
+  transform: rotate(5deg);
+}
 .title {
   color: white;
   position: absolute;
@@ -152,43 +139,42 @@ a {
   padding: 10px;
   font-family: Segoe UI;
 }
-
-@media  (max-width: 847px)  {
-  .contact{
-    top: 275px;
-  }
+@media (max-width: 847px) {
+  .contact {
+    top: 285px;
+ }
 }
-
-@media  (max-width: 591px)  {
-  .contact{
+@media (max-width: 591px) {
+  .contact {
     top: 350px;
-  }
+ }
 }
-
-@media  (max-width: 472px)  {
-  .projet{
-    top: 500px;
-    left: 5vw;
-  }
-}
-
-@media  (max-width: 472px)  {
-  .projet{
+@media (max-width: 472px) {
+  .projet {
     top: 525px;
     left: 5vw;
-  }
+ }
   .contact {
-    width:85vw;
-    top:375px;
-  }
+    width: 85vw;
+    top: 375px;
+ }
   .description {
-    width:85vw;
+    width: 85vw;
     top: 150px;
-  }
+ }
   .projetPhotoshop {
     position: absolute;
     left: 0px;
-    top:750px;
-    z-index:10;
-  }
+    top: 750px;
+    z-index: 10;
+ }
+}
+@media (min-width: 848px) {
+  .imageProjet01 {
+    width: 848px;
+    display: block;
+    margin: auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+ }
 }
