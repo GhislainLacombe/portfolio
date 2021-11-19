@@ -168,7 +168,7 @@ a:hover {
 }
 @media (min-width: 1230px) {
   .title {
-    left: 50vw;
+    left: 40vw;
  }
 }
 @media (max-width: 847px) {
