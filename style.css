@@ -166,6 +166,11 @@ a:hover {
   padding: 10px;
   font-family: Segoe UI;
 }
+@media (max-width: 1230px) {
+  .contact {
+    left: 25vw;
+ }
+}
 @media (max-width: 847px) {
   .contact {
     top: 285px;
