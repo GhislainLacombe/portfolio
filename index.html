@@ -2,7 +2,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
         <script>
-          document.getElementById("contact").innerHTML = "Contacts:<br/>LacombeGhislain.cn @gmail.com<br/>438-680-1454<br/>203 Rue Grenier";
+          if ($(window).width() < 315) {document.getElementById("contact").innerHTML = "Contacts:<br/>LacombeGhislain.cn @gmail.com<br/>438-680-1454<br/>203 Rue Grenier";}
           </script>
     </head>
     <body>
@@ -11,7 +11,7 @@
           <div class="nom">
             Ghislain Lacombe
           </div>
-          <div class="description">
+          <div class="description" id="contact">
             Je suis un étudiant en technique d'intégration multimédia.<br/>
             J'aime créer des jeux en 2d et 3d et je peux faire la conception
        et le code de sites webs.
