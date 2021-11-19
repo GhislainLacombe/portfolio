@@ -167,8 +167,9 @@ a:hover {
   font-family: Segoe UI;
 }
 @media (max-width: 1230px) {
-  .contact {
+  .title {
     margin:auto;
+    position: relative;
  }
 }
 @media (max-width: 847px) {
