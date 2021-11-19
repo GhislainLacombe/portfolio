@@ -168,8 +168,7 @@ a:hover {
 }
 @media (max-width: 1230px) {
   .title {
-    margin:auto;
-    position: relative;
+    left: 35vw;
  }
 }
 @media (max-width: 847px) {
