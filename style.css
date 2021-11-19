@@ -168,7 +168,7 @@ a:hover {
 }
 @media (max-width: 1230px) {
   .contact {
-    left: 35vw;
+    margin:auto;
  }
 }
 @media (max-width: 847px) {
