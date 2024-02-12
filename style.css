@@ -147,6 +147,9 @@ html, body {
   height: auto;
   z-index: 10;
 }
+.projetvideo {
+  hetght: 35vw;
+}
 .tilt {
   color: white;
   display: inline-block;
