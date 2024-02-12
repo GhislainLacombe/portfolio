@@ -154,7 +154,7 @@ a {
   transition-property: transform;
   transform: rotate(-1deg);
 }
-a:hover {
+.tilt:hover {
   color: lightgrey;
   transform: rotate(5deg);
 }
