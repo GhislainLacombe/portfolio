@@ -147,7 +147,7 @@ html, body {
   height: auto;
   z-index: 10;
 }
-a {
+.tilt {
   color: white;
   display: inline-block;
   transition-duration: 0.25s;
