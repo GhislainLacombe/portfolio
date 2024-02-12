@@ -147,11 +147,6 @@ html, body {
   height: auto;
   z-index: 10;
 }
-.imageProjet02 {
-  max-width: 100%;
-  height: 35vw;
-  z-index: 10;
-}
 .tilt {
   color: white;
   display: inline-block;
@@ -208,13 +203,6 @@ html, body {
 }
 @media (min-width: 848px) {
   .imageProjet01 {
-    width: 848px;
-    display: block;
-    margin: auto;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
- }
-.imageProjet02 {
     width: 848px;
     display: block;
     margin: auto;
