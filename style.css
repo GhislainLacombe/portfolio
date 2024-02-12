@@ -214,4 +214,11 @@ html, body {
     border-left: 1px solid white;
     border-right: 1px solid white;
  }
+.imageProjet02 {
+    width: 848px;
+    display: block;
+    margin: auto;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+ }
 }
